@@ -1,51 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<script src="https://kit.fontawesome.com/6350cd566d.js" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Staatliches&display=swap" rel="stylesheet">
-		<title>NewsGrid | Latest News</title>
-	</head>
-	<body>
-		<nav id="main-nav">
-			<div class="container">
-				<img src="img/logo.png" alt="logo" class="logo">
-				<div class="social">
-					<a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-						<i class="fab fa-facebook fa-2x"></i>
-					</a>
-					<a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-						<i class="fab fa-twitter fa-2x"></i>
-					</a>
-					<a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-						<i class="fab fa-instagram fa-2x"></i>
-					</a>
-					<a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-						<i class="fab fa-youtube fa-2x"></i>
-					</a>
-				</div>
-				<ul>
-					<li class="current"><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-				</ul>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="https://kit.fontawesome.com/6350cd566d.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Staatliches&display=swap" rel="stylesheet">
+	<title>NewsGrid | Latest News</title>
+</head>
+<body>
+	<nav id="main-nav">
+		<div class="container">
+			<img src="img/logo.png" alt="logo" class="logo">
+			<div class="social">
+				<a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+					<i class="fab fa-facebook fa-2x"></i>
+				</a>
+				<a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+					<i class="fab fa-twitter fa-2x"></i>
+				</a>
+				<a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+					<i class="fab fa-instagram fa-2x"></i>
+				</a>
+				<a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+					<i class="fab fa-youtube fa-2x"></i>
+				</a>
 			</div>
-		</nav>
-		<header id="showcase">
-			<div class="container">
-				<div class="showcase-container">
-					<div class="showcase-content">
-						<div class="category category-sports">Sports</div>
-						<h1>Some Sports Article</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, aliquam! Expedita consectetur dolores fugit in ex! Reiciendis aspernatur autem accusamus, fugit facere, culpa voluptatum provident quae rerum quasi perspiciatis non.</p>
-						<a  href="article.html" class="btn btn-primary">Read More</a>
+			<ul>
+				<li class="current"><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</div>
+	</nav>
+	<header id="showcase">
+		<div class="container">
+			<div class="showcase-container">
+				<div class="showcase-content">
+					<div class="category category-sports">Sports</div>
+					<h1>Some Sports Article</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, aliquam! Expedita consectetur dolores fugit in ex! Reiciendis aspernatur autem accusamus, fugit facere, culpa voluptatum provident quae rerum quasi perspiciatis non.</p>
+					<a  href="article.html" class="btn btn-primary">Read More</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="home-articles" class="py-1">
+		<div class="container">
+			<h2>Editor Picks</h2>
+			<div class="articles-container">
+				<article class="card">
+					<img src="img/articles/ent1.jpg" alt="entertainment">
+					<div class="card-wrapper">
+						<div class="category category-ent">Entertainment</div>
+						<h3 class="article-heading"><a href="article.html">Lorem ipsum dolor sit amet.</a></h3>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti sunt soluta eaque aperiam pariatur in labore doloremque dolor quisquam quod.</p>
 					</div>
-				</div>
+				</article>
+				<article class="card bg-dark">
+					<div class="category category-sports">Sports</div>
+					<h3 class="article-heading"><a href="article.html">Lorem ipsum dolor sit amet.</a></h3>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti sunt soluta eaque aperiam pariatur in labore doloremque dolor quisquam quod.</p>
+				</article>
+				<article class="card">
+					<img src="img/articles/tech1.jpg" alt="technology">
+					<div class="category category-ent">Technology</div>
+					<h3 class="article-heading"><a href="article.html">Lorem ipsum dolor sit amet.</a></h3>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti sunt soluta eaque aperiam pariatur in labore doloremque dolor quisquam quod.</p>
+				</article>
+				<article class="card">
+					<div class="category category-sports">Sports</div>
+					<h3 class="article-heading"><a href="article.html">Lorem ipsum dolor sit amet.</a></h3>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti sunt soluta eaque aperiam pariatur in labore doloremque dolor quisquam quod.</p>
+					<img src="img/articles/sports1.jpg" alt="sports">
+				</article>
+				<article class="card">
+					<img src="img/articles/tech2.jpg" alt="technology">
+					<div class="category category-ent">Technology</div>
+					<h3 class="article-heading"><a href="article.html">Lorem ipsum dolor sit amet.</a></h3>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti sunt soluta eaque aperiam pariatur in labore doloremque dolor quisquam quod.</p>
+				</article>
+				<article class="card bg-primary">
+					<div class="category category-sports">Sports</div>
+					<h3 class="article-heading"><a href="article.html">Lorem ipsum dolor sit amet.</a></h3>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti sunt soluta eaque aperiam pariatur in labore doloremque dolor quisquam quod.</p>
+				</article>
+				<article class="card">
+					<div class="card-wrapper">
+						<div class="category category-ent">Entertainment</div>
+						<h3 class="article-heading"><a href="article.html">Lorem ipsum dolor sit amet.</a></h3>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti sunt soluta eaque aperiam pariatur in labore doloremque dolor quisquam quod.</p>
+					</div>
+					<img src="img/articles/ent2.jpg" alt="entertainment">
+				</article>
 			</div>
-		</header>
-	</body>
+		</div>
+	</section>
+	
+</body>
 </html>
