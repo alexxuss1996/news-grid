@@ -29,6 +29,7 @@ body {
 a {
 	color: var(--dark-color);
 	text-decoration: none;
+	transition: all 0.35s ease;
 }
 
 img {
@@ -37,6 +38,10 @@ img {
 
 ul {
 	list-style: none;
+}
+
+p {
+	padding: 0.5rem 0;
 }
 
 h1,
@@ -79,7 +84,6 @@ h6 {
 .category-tech {
 	background-color: var(--tech-color);
 }
-
 
 .card {
 	padding: 1rem;
@@ -135,6 +139,15 @@ h6 {
 
 .p-3 {
 	padding: 3rem;
+}
+
+.list li {
+	padding: .5rem 0;
+	border-bottom: 1px dotted #555;
+}
+
+.list li a:hover {
+	color: var(--primary-color) !important;
 }
 
 .btn {
@@ -261,7 +274,6 @@ h6 {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 1rem;
-
 }
 
 #home-articles .articles-container>*:first-child,
@@ -275,4 +287,42 @@ h6 {
 
 #home-articles .articles-container>*:last-child {
 	grid-column: 2 / span 2;
+}
+
+#main-footer {
+	background-color: var(--dark-color);
+	color: #fff;
+}
+
+#main-footer img {
+	width: 150px;
+}
+
+#main-footer a {
+	color: #fff;
+}
+
+#main-footer .footer-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1.5rem;
+}
+
+#main-footer .footer-container>*:last-child {
+	background-color: #444;
+	font-size: 0.75rem;
+	text-align: center;
+	grid-column: 1 / span 4;
+	padding: .5rem;
+}
+
+
+#main-footer .footer-container input[type='email'] {
+	width: 90%;
+	margin-bottom: 0.5rem;
+	padding: .5rem;
+}
+
+#main-footer .footer-container input[type='submit'] {
+	width: 90%;
 }
